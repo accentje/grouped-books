@@ -1,0 +1,46 @@
+.book-card-container {
+    width: 18rem;
+    height: fit-content;
+  }
+  
+  .card-header {
+    width: 100%;
+    height: fit-content;
+    padding: 0.5rem 1rem;
+  
+    background-color: #0079c8;
+    color: white;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .card-header > p {
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 0.5rem;
+  
+    color: black;
+  
+    line-height: normal;
+  
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .book-card-container {
+      border: 1px solid black;
+      border-radius: 0.5rem;
+  
+      box-shadow: 5px 5px black;
+  
+      padding: 1rem;
+    }
+  }
+  
